@@ -1,0 +1,4 @@
+---
+app:
+  name: babar-frontend
+  path: /var/www/babar-frontend
