@@ -1,0 +1,35 @@
+{
+  "name": "babar-frontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/davinov/babar-frontend",
+  "authors": [
+    "David Nowinsky <david@nowinsky.net>"
+  ],
+  "description": "An ode to Beer-Driven-Development",
+  "main": "web/index.html",
+  "keywords": [
+    "babar",
+    "bar",
+    "frontend",
+    "beer"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "*",
+    "font-awesome": "*",
+    "bootstrap": "*"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": "./font-awesome.css"
+    }
+  }
+}

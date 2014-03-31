@@ -1,0 +1,45 @@
+{
+  "name": "babar-frontend",
+  "version": "0.0.0",
+  "description": "An ode to Beer-Driven-Development",
+  "main": "web/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davinov/babar-frontend.git"
+  },
+  "keywords": [
+    "babar",
+    "bar",
+    "frontend",
+    "beer"
+  ],
+  "author": "David Nowinsky <david@nowinsky.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davinov/babar-frontend/issues"
+  },
+  "homepage": "https://github.com/davinov/babar-frontend",
+  "dependencies": {
+    "bower": "*",
+    "coffee-script": "*",
+    "jade": "*",
+    "less": "*",
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-util": "*",
+    "gulp-uglify": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-filesize": "*",
+    "gulp-less": "*",
+    "gulp-changed": "*",
+    "gulp-jade": "*",
+    "gulp-angular-templatecache": "*",
+    "gulp-bower-files": "*",
+    "gulp-symlink": "*"
+  }
+}
