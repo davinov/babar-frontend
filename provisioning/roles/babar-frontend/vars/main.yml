@@ -3,4 +3,6 @@ app:
   name: babar-frontend
   path: /var/www/babar-frontend
   port: 8081
+proxy:
+  port: 8081
   route: ''

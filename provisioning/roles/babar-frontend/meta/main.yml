@@ -2,3 +2,5 @@
 dependencies:
   - { role: nginx }
   - { role: nodejs }
+  - { role: nginx-vhost }
+  - { role: nginx-proxy }
